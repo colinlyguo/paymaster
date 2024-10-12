@@ -1,0 +1,2 @@
+[2m2024-10-12T09:52:28.315507Z[0m [31mERROR[0m [2mfoundry_compilers::artifacts[0m[2m:[0m [3merror[0m[2m=[0m"/Users/colin/Desktop/桌面/scroll_git/paymaster/lib/account-abstraction/contracts/core/BasePaymaster.sol": No such file or directory (os error 2)
+[2m2024-10-12T09:52:28.316443Z[0m [31mERROR[0m [2mfoundry_compilers::artifacts[0m[2m:[0m [3merror[0m[2m=[0m"/Users/colin/Desktop/桌面/scroll_git/paymaster/lib/account-abstraction/contracts/interfaces/IEntryPoint.sol": No such file or directory (os error 2)

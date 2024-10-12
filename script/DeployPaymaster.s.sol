@@ -10,10 +10,6 @@ contract DeployPaymaster is Script {
     address entryPoint = 0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789;
 
     function run() public {
-        address signer = vm.envAddress("VERIFYING_SIGNER");
-        vm.broadcast();
-        Paymaster paymaster = new Paymaster(IEntryPoint(entryPoint), signer);
-        require(paymaster.verifyingSigner() == signer, "Deploy: verifyingSigner is incorrect");
-        require(paymaster.owner() == tx.origin, "Deploy: owner is incorrect");
+        Paymaster paymaster = new Paymaster(IEntryPoint(entryPoint));
     }
 }
